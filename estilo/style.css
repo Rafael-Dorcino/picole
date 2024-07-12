@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+Cores
+Roxo: #5E17EB
+Amarelo: #FFCE0A
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../imagens/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 290px;
+}
+
+header > img.logo {
+    border-radius: 100%;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+header > nav {
+    
+}
+
+header > nav > a {
+    background-color: #FFCE0A;
+    color: #5E17EB;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #5E17EB;
+}
+
+header > nav > a:hover {
+    background-color: #5E17EB;
+    color: #FFCE0A;
+    border: 2px solid #FFCE0A;
+    cursor: pointer;
+}
+
+
+
+main{
+    background-image: url(../imagens/fundo2.png);
+    display: flex;
+    border: 2px dotted black ;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    
+}
+
+div {
+    border: 2px solid rgb(0, 0, 0) ;
+    margin: 10px 0px;
+}
+
+div > img {
+    border: 2px dotted rgb(0, 4, 255) ;
+}
+
+div > h2 {
+    border: 2px dotted rgb(255, 0, 0) ;
+    width: 205px;
+    text-align: center;
+    background-color: white;
+}
