@@ -51,7 +51,7 @@ header > nav > a:hover {
 
 
 
-main{
+main > section.picole{
     background-image: url(../imagens/fundo2.png);
     display: flex;
     border: 2px dotted black ;
@@ -62,17 +62,78 @@ main{
 }
 
 div {
-    border: 2px solid rgb(0, 0, 0) ;
+    
     margin: 10px 0px;
 }
 
-div > img {
+section.picole > div > img {
     border: 2px dotted rgb(0, 4, 255) ;
 }
 
-div > h2 {
+section.picole > div > h2 {
     border: 2px dotted rgb(255, 0, 0) ;
     width: 205px;
     text-align: center;
     background-color: white;
 }
+
+section.historia {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #5E17EB;
+    padding: 15px;
+}
+
+section.historia > div {
+    
+    
+}
+
+section.historia > div.sorveteria {
+    flex: 0 1 auto;
+    margin: auto;
+    border: 2px solid #FFCE0A;
+    height: 204px;
+}
+
+section.historia > div.texto > h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+section.historia > div.texto > p {
+    font-size: 1.2em;
+}
+
+section.historia > div.texto {
+    text-align: justify;
+    padding: 10px;
+    flex: 1 0 300px;
+    color: #FFCE0A;
+}
+
+footer {
+    border: 2px dotted rgb(0, 4, 255);
+}
+
+footer > div {
+    background-color: rgb(19, 148, 19);
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    width: 275px;
+    border-radius: 5px;
+}
+
+footer > div > img {
+    width: 40px;
+    padding-right: 5px;
+
+}
+
+footer > div > a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
