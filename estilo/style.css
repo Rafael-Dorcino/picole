@@ -30,27 +30,26 @@ header {
 header > img.logo {
     border-radius: 100%;
     margin: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
-header > nav > a {
+header > menu > a {
     background-color: #FFCE0A;
     color: #5E17EB;
+    border: 2px solid #5E17EB;
     margin: 10px;
     padding: 10px;
     border-radius: 6px;
     text-decoration: none;
-    border: 2px solid #5E17EB;
+    
 }
 
-header > nav > a:hover {
+header > menu > a:hover {
     background-color: #5E17EB;
     color: #FFCE0A;
     border: 2px solid #FFCE0A;
     cursor: pointer;
 }
-
-
 
 main > section.picole{
     background-image: url(../imagens/fundo2.png);
@@ -66,16 +65,24 @@ section.picole > div {
 }
 
 section.picole > div > img {
-    border: 2px solid rgb(0, 0, 0) ;
+    border: 2px solid #5E17EB;
     border-radius: 7px 7px 0px 0px;
 }
 
 section.picole > div > h2 {
-    border: 2px solid rgb(0, 0, 0) ;
+    background-color: #FFCE0A;
+    color: #5E17EB;
+    border: 2px solid #5E17EB;
+    
     border-radius: 0px 0px 7px 7px;
     width: 204px;
     text-align: center;
-    background-color: white;
+}
+
+section.picole > div > h2:hover {
+    background-color: #5E17EB;
+    color: #FFCE0A;
+    border: 2px solid #FFCE0A;
 }
 
 section.historia {
