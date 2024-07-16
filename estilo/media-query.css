@@ -13,4 +13,8 @@
     menu > a {
         text-align: center;
     }
+
+    footer > iframe {
+        width: 350px;
+    }
 }
