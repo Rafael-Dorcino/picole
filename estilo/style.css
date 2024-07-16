@@ -170,11 +170,13 @@ footer{
 footer > h1 {
     color: #FFCE0A;
     text-align: center;
+    margin-top: 15px;
 }
 
 footer > p {
     color: #FFCE0A;
     text-align: center;
+    margin: 10px;
 }
 
 footer > iframe {
